@@ -1,16 +1,13 @@
 {
-  "name": "backend",
+  "name": "interview-prep-backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "AI-powered Interview Prep Platform - Backend API",
+  "main": "dist/server.js",
   "scripts": {
-    "dev":   "ts-node-dev --respawn --transpile-only src/server.ts",
+    "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
     "build": "tsc",
     "start": "node dist/server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
     "bcryptjs": "^3.0.3",
     "cors": "^2.8.6",
@@ -21,6 +18,7 @@
     "jsonwebtoken": "^9.0.3",
     "morgan": "^1.11.0",
     "mysql2": "^3.22.5",
+    "openai": "^4.104.0",
     "sequelize": "^6.37.8",
     "sequelize-typescript": "^2.1.6"
   },
@@ -34,6 +32,5 @@
     "nodemon": "^3.1.14",
     "ts-node-dev": "^2.0.0",
     "typescript": "^6.0.3"
-  }  
-
+  }
 }

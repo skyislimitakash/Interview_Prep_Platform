@@ -1,0 +1,14 @@
+
+
+# ── Environment ────────────────────────────────────────────
+.env
+.env.local
+
+
+# ── Temp Files ─────────────────────────────────────────────
+temp/
+tmp/
+screenshots/
+uploads/
+data/
+

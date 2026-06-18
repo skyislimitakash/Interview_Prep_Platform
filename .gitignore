@@ -1,0 +1,27 @@
+
+
+# ── Environment & Secrets ──────────────────────────────────
+.env
+.env.local
+.env.production
+**/.env
+**/.env.local
+
+# ── Database ───────────────────────────────────────────────
+*.sql
+**/init.sql
+**/backups/
+
+# ── Docker ─────────────────────────────────────────────────
+*.tar
+
+# ── Temp Files ─────────────────────────────────────────────
+temp/
+tmp/
+**/temp/
+**/tmp/
+**/screenshots/
+**/uploads/
+
+
+
